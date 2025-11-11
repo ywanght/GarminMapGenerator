@@ -8,7 +8,7 @@ import time
 app = Flask(__name__)
 
 # --- 安全配置 ---
-SECRET_KEY = "QUw8gCDd9gN8JBA!noDw"
+SECRET_KEY = "put your key here"
 
 # --- 脚本路径 ---
 BUILD_SCRIPT_PATH = "/opt/map-factory/build_map.sh"

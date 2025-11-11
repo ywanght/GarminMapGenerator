@@ -1,1 +1,27 @@
+# 大体积的地图、二进制和临时文件
+*.img
+*.tdb
+*.osm.pbf
+*.bin
+
+# build/生成日志类
+build_log_*.txt
+trigger.log
+
+# splitter 和 mkgmap 运行产生的临时目录或输出
+splitter-output/
+tmp*
+*.lock
+
+# Python 编译及缓存文件
+__pycache__/
+*.pyc
+
+# 系统临时类
+*.swp
+*.swo
+.DS_Store
+
+# 其他需要排除的可执行/临时文件（如 jars，如果你不打算托管 jar 包）
+*.jar
 

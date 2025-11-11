@@ -9,7 +9,7 @@ echo "覆盖核心脚本及配置到 /opt/map-factory ..."
 # 步骤2 —— 批量覆盖关键脚本和资源到老生产目录
 cp -v /opt/GarminMapGenerator/build_map.sh /opt/map-factory/
 cp -v /opt/GarminMapGenerator/trigger_server.py /opt/map-factory/
-cp -v /opt/GarminMapGenerator/widecn.TYP /opt/map-factory/styles/
+cp -v /opt/GarminMapGenerator/widecn.TYP /opt/map-factory/style/
 
 # 如有 splitter、mkgmap 目录等依赖，也可整体覆盖（视实际需求手动放行）
 # cp -av /opt/GarminMapGenerator/splitter-r654 /opt/map-factory/
